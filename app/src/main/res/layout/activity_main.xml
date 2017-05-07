@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:weightSum="1"
+    >
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/single_choice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_btn_white_blue"
+                android:enabled="@bool/default_single_choice_enable"
+                android:padding="10dip"
+                android:text="@string/test_single_choice"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/main_btn_font"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/multiple_choice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_btn_white_green"
+                android:enabled="@bool/default_multiple_choice_enable"
+                android:padding="10dip"
+                android:text="@string/test_multiple_choice"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/main_btn_font"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/true_or_false_choice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_btn_white_orange"
+                android:enabled="@bool/default_true_or_false_enable"
+                android:padding="10dip"
+                android:text="@string/test_true_or_false"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/main_btn_font"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/my_errors"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_btn_white_yellow"
+                android:enabled="@bool/default_single_choice_with_pictures_enable"
+                android:padding="10dip"
+                android:text="@string/my_errors"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/main_btn_font"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/single_choice_with_pictures"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                android:background="@drawable/bg_btn_white_yellow"
+                android:enabled="@bool/default_single_choice_with_pictures_enable"
+                android:padding="10dip"
+                android:text="@string/test_single_choice_with_pictures"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/main_btn_font"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

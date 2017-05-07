@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- A -->
+    <string name="action_settings">设置</string>
+    <string name="add_failed">添加错误</string>
+    <string name="already_in_first_page">已经是第一页</string>
+    <string name="app_name">答题系统</string>
+
+    <!-- C -->
+    <string name="cancel">取消</string>
+    <string name="commit">提交</string>
+    <string name="commit_success">提交成功, 谢谢</string>
+    <string name="confirm">确定</string>
+    <string name="continue_test">继续测验</string>
+
+    <!-- E -->
+    <string name="empty"/>
+    <string name="examining">测验中</string>
+    <string name="exam_manual_end">您确定要结束本次模拟答题吗?</string>
+    <string name="exam_time_out">您的答题时间已结束, 是否提交?</string>
+    <string name="exit">退出</string>
+
+    <!-- L -->
+    <string name="last_question">上一题</string>
+
+    <!-- M -->
+    <string name="my_errors">我的错题</string>
+    <string name="multiple_choice">(多选)</string>
+
+    <!-- N -->
+    <string name="next_question">下一题</string>
+    <string name="no_data">暂无数据</string>
+
+    <!-- P -->
+    <string name="please_make_a_choice">请做出选择</string>
+
+    <!-- Q -->
+    <string name="qa_test">答题测试</string>
+
+    <!-- S -->
+    <string name="single_choice">(单选)</string>
+    <string name="start_test">开始测试</string>
+
+    <!-- T -->
+    <string name="test_single_choice">单选</string>
+    <string name="test_single_choice_with_pictures">看图单选</string>
+    <string name="test_multiple_choice">多选</string>
+    <string name="test_true_or_false">判断</string>
+    <string name="tips">提示</string>
+    <string name="true_or_false">(判断)</string>
+
+    <!-- W -->
+    <string name="what_is_your_choice">您的选择是?</string>
+
+</resources>

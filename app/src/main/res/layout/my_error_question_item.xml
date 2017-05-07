@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f2f2f2"
+                android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/my_error_item_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow_right"
+        />
+
+    <TextView
+        android:id="@+id/my_error_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_toLeftOf="@id/my_error_item_img"
+        android:textColor="@color/my_error_question_text_black"
+        android:textSize="16sp"/>
+
+</RelativeLayout>
